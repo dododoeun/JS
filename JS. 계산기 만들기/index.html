@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>계에사아앙기이</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div id="a">
+        <div id="b">
+            <input class="a" type="text" id="display"><br>
+            <input class="a" type="text" id="result">
+            <table>
+                <tr>
+                    <th class="c" colspan="3" onclick="reset()">AC</th>
+                    <th class="c" onclick="add('/')">/</th>
+                </tr>
+                <tr>
+                    <td class="num" onclick="add(7)">7</td>
+                    <td class="num" onclick="add(8)">8</td>
+                    <td class="num" onclick="add(9)">9</td>
+                    <td class="c" onclick="add('*')">*</td>
+                </tr>
+                <tr>
+                    <td class="num" onclick="add(4)">4</td>
+                    <td class="num" onclick="add(5)">5</td>
+                    <td class="num" onclick="add(6)">6</td>
+                    <td class="c" onclick="add('-')">-</td>
+                </tr>
+                <tr>
+                    <td class="num" onclick="add(1)">1</td>
+                    <td class="num" onclick="add(2)">2</td>
+                    <td class="num" onclick="add(3)">3</td>
+                    <td class="c" onclick="add('+')">+</td>
+                </tr>
+                <tr>
+                    <td class="num" colspan="2" onclick="add(0)">0</td>
+                    <td class="num" onclick="add('.')">.</td>
+                    <td class="c" onclick="calculate()">=</td>
+                </tr>
+            </table>
+            <button id="record" onclick="record()">계산 기록 보기</button>
+        </div>
+    </div>
+</body>
+</html>

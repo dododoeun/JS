@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+th, td{
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.a{
+    width: 139px;
+    height: 20px;
+    margin-top: 2px;
+    border: solid rgb(138, 193, 255) 1.4px;
+    border-radius: 20px;
+    text-align: center;
+}
+.b{
+    height: 100px;
+}
+table{
+    border: solid rgb(138, 193, 255) 1px;
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 3px;
+}
+.c{
+    background-color: rgb(138, 193, 255);
+    color: white;
+}
+.num{
+    background-color: rgb(200, 226, 255);
+    color: white;
+}
+#a{
+    display: flex;
+}
+#b{
+    margin: auto;
+}
+img{
+    width: 29px;
+    height: 29px;
+}
+button{
+    width: 140px;
+    height: 20px;
+    text-align: center;
+    border: solid rgb(138, 193, 255) 1px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 4px;
+}
+
+li{
+    text-align: center;
+    font-size: 13px;
+}
