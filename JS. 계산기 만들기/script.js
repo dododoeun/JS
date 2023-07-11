@@ -15,6 +15,7 @@ function reset() {
     document.getElementById('result').value = "";
 }
 function record() {
+    history.innerHTML = ""
     const ul = document.createElement('ul');
     arr.forEach(item => {
       const liElement = document.createElement('li');
