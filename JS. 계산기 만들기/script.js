@@ -15,12 +15,13 @@ function reset() {
     document.getElementById('result').value = "";
 }
 function record() {
-    history.innerHTML = ""
     const ul = document.createElement('ul');
-    arr.forEach(item => {
+    var uniqueArr = [...new Set(arr)];
+
+    uniqueArr.forEach(item => {
       const liElement = document.createElement('li');
       liElement.textContent = item;
       ul.appendChild(liElement);
     });
-    document.body.appendChild(ul);
+    document.getElementById('history').appendChild(ul);
   }
